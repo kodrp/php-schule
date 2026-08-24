@@ -1,0 +1,77 @@
+body {
+    margin: 0%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login-container {
+   width: 350px;
+   padding: 40px;
+   background: #111;
+   border: 1px solid #ff0000;
+   border-radius: 12px;
+   box-shadow: 0 0 10px #ff0000 
+   0 0 30px rgba(255, 0, 0, 0.5)
+   0 0 60px rgba(255, 0, 0, 0.3)
+   0 0 90px rgba(255, 0, 0, 0.2);
+}
+.login-container h1 {
+    text-align: center;
+    color: white;
+}
+.login-container input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin: 10px 0;
+    background: #000000;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+.login-container input:focus {
+    border-color: #ff0000;
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background: #e00000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-container button:hover {
+    background: #ff0000;
+    box-shadow: 0 0 15px red;
+}
+.success{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.error{
+    color: red;
+    margin-top: 20px;
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.homepage {
+    display: block;
+}
+.fancy-huge {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 90px;
+    color: #ff0000;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
+}
