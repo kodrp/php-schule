@@ -1,4 +1,4 @@
-body {
+.login-page {
     margin: 0%;
     min-height: 100vh;
     display: flex;
@@ -73,5 +73,31 @@ p {
     text-align: center;
     font-size: 90px;
     color: #ff0000;
-    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000;
+}
+.movie-pick {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+}
+.movie-pick-button {
+    padding: 10px 20px;
+    background: #e00000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+.movie-pick button:hover {
+    background: #ff0000;
+    box-shadow: 0 0 15px red;
+}
+.movie-pick form {
+    text-align: center;
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
 }

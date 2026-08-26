@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
+<body class="login-page">
     <div class="login-container">
     <h1>Sachen und Zeug</h1>
     <form method="POST">
